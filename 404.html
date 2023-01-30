@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.60">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="https://npm.elemecdn.com/tohe-doc-resources@1.0.4/AU.ico"><title>TOHE</title><meta name="description" content="树懒和TOH摆烂了，我们比他们稍微好一点点">
+    <link rel="preload" href="/assets/style-5963348b.css" as="style"><link rel="stylesheet" href="/assets/style-5963348b.css">
+    <link rel="modulepreload" href="/assets/app-72ff6485.js"><link rel="modulepreload" href="/assets/framework-96b046e1.js"><link rel="modulepreload" href="/assets/404.html-f9875e7b.js"><link rel="modulepreload" href="/assets/404.html-46166703.js"><link rel="prefetch" href="/assets/Advance.html-7ae27de2.js" as="script"><link rel="prefetch" href="/assets/Features.html-351abf0c.js" as="script"><link rel="prefetch" href="/assets/GetStart.html-2b881eb0.js" as="script"><link rel="prefetch" href="/assets/index.html-7e19020e.js" as="script"><link rel="prefetch" href="/assets/Roles.html-6778b081.js" as="script"><link rel="prefetch" href="/assets/Advance.html-e75ff0be.js" as="script"><link rel="prefetch" href="/assets/Features.html-6b808ce1.js" as="script"><link rel="prefetch" href="/assets/GetStart.html-b3a1d56b.js" as="script"><link rel="prefetch" href="/assets/index.html-421116f5.js" as="script"><link rel="prefetch" href="/assets/Roles.html-b87a828c.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-72ff6485.js" defer></script>
+  </body>
+</html>
